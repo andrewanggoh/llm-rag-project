@@ -108,6 +108,7 @@ if uploaded_file == None:
 ### Output when CSV file is uploaded
 if uploaded_file:
     df = pd.read_csv(uploaded_file)
+    df = df.astype(str)
     st.subheader("Choose Column(s)")
     selected_columns = st.multiselect(
         label = "Choose Column(s) to Analyze:",
