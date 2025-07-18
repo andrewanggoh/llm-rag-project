@@ -1,6 +1,3 @@
 [theme]
+base = "dark"
 primaryColor = "#090C9B"
-
-[theme.sidebar] 
-backgroundColor = "#090C9B"
-textColor = "#FFFFFF"
